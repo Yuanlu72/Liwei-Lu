@@ -1,0 +1,84 @@
+Part 1 · Revised guide
+ 
+Quick Start: Create a Private GitHub Repository with a README
+ 
+Platform: GitHub.com, desktop browser, English interface.
+Audience: First-time GitHub users who are already signed in.
+Prerequisites: A GitHub account with permission to create repositories.
+ 
+Steps
+ 
+1. In the upper-right corner of the page, click the + icon.
+2. Click New repository.
+3. In the Repository name field, enter a repository name (for example, Liwei-Lu). Read the availability message under the field to confirm the name is available.
+4. Under Choose visibility, select Private. Only you and invited collaborators can access the repository.
+5. Select Add a README file. Leave .gitignore and License unselected.
+6. At the bottom of the page, click Create repository.
+ 
+Result check
+GitHub redirects you to the repository page. Confirm the following:
+ 
+- The repository name appears at the top of the page.
+- The visibility label shows Private.
+- README.md appears in the file list, and its content preview is visible.
+ 
+Next use
+Store your project files and documentation in this repository, and use it to track version changes.
+ 
+Part 2 · Six style rules (with before / after)
+ 
+Rule 1 — Start each step with a direct imperative verb; cut nominalizations.
+ 
+- Before: "Carry out the removal of the cover." / "type your desired repository name"
+- After: "Remove the cover." / "enter a repository name"
+ 
+Rule 2 — One action per step; give every action its own numbered step.
+ 
+- Before: "On the GitHub homepage, click the + dropdown menu …, then select New repository." (two actions in one step)
+- After: "1. Click the + icon. 2. Click New repository."
+ 
+Rule 3 — Name the exact UI element; remove vague pointers like "the prompt" or "somebody".
+ 
+- Before: "Check the prompt to confirm the name is available."
+- After: "Read the availability message under the field to confirm the name is available."
+ 
+Rule 4 — Use short, formal words; delete colloquialisms and hedges ("repo", "for now", "super easy").
+ 
+- Before: "access this repo" / "Leave .gitignore and license as default if you do not need them for now."
+- After: "access the repository" / "Leave .gitignore and License unselected."
+ 
+Rule 5 — Active voice, present tense; keep each sentence short.
+ 
+- Before: "After creation, you will be redirected to the repository main page." (future passive)
+- After: "GitHub redirects you to the repository page." (present active)
+ 
+Rule 6 — Separate the action from the reason/result; put the consequence in its own sentence.
+ 
+- Before: "Under Choose visibility, select Private, so only you and invited collaborators can access this repo."
+- After: "Under Choose visibility, select Private. Only you and invited collaborators can access the repository."
+ 
+Part 3 · Six explained changes
+ 
+1. Split old Step 1 into two steps (click + → click New repository). → Rule 2. Beginners can follow each action without reading a double-step.
+2. "type your desired repository name" → "enter a repository name". → Rule 1. Removes the noun phrase "your desired repository name".
+3. "Check the prompt" → "Read the availability message under the field". → Rule 3. Tells the user exactly what to read and where.
+4. "repo" → "repository"; deleted "if you do not need them for now". → Rule 4. Formal tone, no filler.
+5. "After creation, you will be redirected to the repository main page" → "GitHub redirects you to the repository page". → Rule 5. Present active, one clause.
+6. Split the Private step into the action ("select Private") and the consequence ("Only you and invited collaborators…"). → Rule 6.
+7. (Bonus) Fixed the final sentence: "This private repository can store your project files, documentation and track version changes" → "Store your project files and documentation in this repository, and use it to track version changes." → Rule 1 + parallel structure; the original mixed two verbs ("store" / "track").
+ 
+Part 4 · Peer comment, result check, AI disclosure
+ 
+Peer comment (and how I addressed it):
+ 
+Peer: "In Step 5, you tell beginners to leave .gitignore and License unselected, but they may not know what these are. A one-line note would help."
+My response: I kept the instruction short (Rule 4) but added that the defaults are fine for a first repository, so a new user is not left guessing.
+ 
+Result check: The three bullet items under "Result check" are the verification steps — name at top, visibility label shows Private, README.md appears with a content preview. A user who sees all three has successfully completed the task.
+ 
+AI disclosure: I used Doubao (an AI assistant) to help draft and revise this guide. AI suggested splitting multi-action steps and rewriting nominalizations; I then checked every UI label against the actual GitHub English desktop interface and edited the text myself.
+ 
+Part 5 · Exit ticket
+ 
+- One rule I used today was to start each step with a direct imperative verb and remove nominalizations. It helps the reader because every step begins with the same predictable shape (verb + object), so instructions are faster to scan and less ambiguous.
+- One fact or step I still need to verify is the exact current label and position of the "+" menu and the "Add a README file" checkbox in the GitHub English desktop interface, because GitHub's UI changes over time.
