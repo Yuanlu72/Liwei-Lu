@@ -1,0 +1,18 @@
+Individual Documentation Project Proposal
+
+1. Product and Audience
+For my final documentation project, I select Canva as the target product. Canva is a popular graphic design platform for making posters, slides, social media visuals and other creative materials. The target audience is college student beginners with no professional design experience. These users need to finish course assignments, presentation slides and event posters quickly, but they are unfamiliar with template search, element adjustment and download settings. They prefer straightforward instructions with minimal design jargon.
+ 
+2. Selected User Tasks
+I will cover three high-frequency beginner tasks:
+1. How to search for suitable templates and replace text & pictures inside a Canva design.
+2. How to share a Canva draft with group members and set editing permissions.
+3. How to export finished work in different formats (PDF, PNG, PPT) for course submission.
+ 
+These tasks fit student scenarios well, solve common stumbling blocks, and support clear step-by-step technical writing.
+ 
+3. Documentation Plan
+My guide will follow a user‑centered structure. I will open with a brief scenario introduction for each task. Then I list sequential operation steps. After the steps, I add warning notes for frequent mistakes: blurry exported images, wrong share link permissions, and accidental overwriting of original templates. At the end, I include beginner tips. I will revise the whole document following the technical writing checklist from class to guarantee clarity, conciseness and usability.
+ 
+4. Reason for Tool Selection
+I will write the instruction in Markdown and host it on GitHub. Markdown keeps the layout simple and easy to revise. GitHub saves version history of every edit, which records my writing and revision process. Storing the Canva guide on GitHub meets the course submission rules, lets the instructor view and assess my work conveniently, and builds a stable preview for this technical writing practice.
